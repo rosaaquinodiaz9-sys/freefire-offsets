@@ -1,7 +1,14 @@
 {
-    "AIMBOT_50": "0x12A3B4C0",
-    "BALAS_MAGICAS": "0x23B4C5D0",
-    "ANTENA": "0x34C5D6E0",
-    "HOLOGRAMA_AMARILLO": "0x45D6E7F0"
+  "juego": "Free Fire",
+  "version": "1.120.1",
+  "fecha_actualizacion": "2026-02-06",
+  "offsets": {
+    "AIModule": "0x097c9948",
+    "AimAssist": "0x097dc478",
+    "SkillGroupBullet": "0x097dd3e9",
+    "ShootingTargetConfig": "0x097dadf4",
+    "DynamicAimAnim": "0x097dc114"
+  },
+  "notas": "Offsets extraídos de libil2cpp.so usando Radare2"
 }
 

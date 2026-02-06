@@ -1,0 +1,103 @@
+40      0x00000469 0x00000469 79   80   .dynstr             ascii   _ZNSt6vectorImSaImEE14_M_fill_insertEN9__gnu_cxx17__normal_iteratorIPmS1_EEmRKm
+179     0x000010c9 0x000010c9 25   26   .dynstr             ascii   il2cpp_gc_reclaimed_bytes
+182     0x00001115 0x00001115 26   27   .dynstr             ascii   il2cpp_gchandle_get_target
+397     0x00002830 0x00002830 77   78   .dynstr             ascii   _ZNSt6vectorImSaImEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPmS1_EERKm
+1329561 0x097c9948 0x097c9948 20   21   .rodata             ascii   UnityEngine.AIModule
+1329934 0x097cc958 0x097cc958 18   19   .rodata             ascii   GetTargetFrameRate
+1329935 0x097cc96b 0x097cc96b 18   19   .rodata             ascii   SetTargetFrameRate
+1329951 0x097ccb5c 0x097ccb5c 33   34   .rodata             ascii   CameraScripting::SetTargetBuffers
+1330318 0x097cf6bc 0x097cf6bc 49   50   .rodata             ascii   ScriptingGraphicsCaps::SupportedRenderTargetCount
+1331767 0x097d9f35 0x097d9f35 371  372  .rodata             ascii   Choose 2 axes of a finger bone. For example 1 pointing towards the next finger and 2 pointing up. Select a finger bone in the InteractionTarget hierarchy and see which local axis points towards the next bone and which local axis points up and set targetAxis1 and targetAxis2 accordingly. Then select a finger in this poser's hierarchy and do the same for axis1 and axis2.
+1331768 0x097da0a9 0x097da0a9 92   93   .rodata             ascii   List of bones must match InteractionTarget's list of bones in both array size and hierarchy.
+1331781 0x097da4bf 0x097da4bf 140  141  .rodata             ascii   Follows the target bone's local scale. BoneFollower cannot inherit world/skewed scale because of UnityEngine.Transform property limitations.
+1331837 0x097dadf4 0x097dadf4 29   30   .rodata             ascii   PartyGameShootingTargetConfig
+1331838 0x097dae12 0x097dae12 31   32   .rodata             ascii   PartyGameShootingTarget creator
+1331937 0x097dbb80 0x097dbb80 34   35   .rodata             ascii   Cinemachine/CinemachineTargetGroup
+1331982 0x097dc114 0x097dc114 40   41   .rodata             ascii   DynaimcloadAnimPrefeb-------------------
+1331983 0x097dc13d 0x097dc13d 41   42   .rodata             ascii   DynaimcSoundResourceID-------------------
+1332006 0x097dc478 0x097dc478 9    10   .rodata             ascii   AimAssist
+1332146 0x097dd3e9 0x097dd3e9 16   17   .rodata             ascii   SkillGroupBullet
+1332173 0x097dd6fd 0x097dd6fd 19   20   .rodata             ascii   The target FOV/Size
+1332176 0x097dd761 0x097dd761 45   46   .rodata             ascii   How quickly the zoom reaches the target value
+1332186 0x097dd876 0x097dd876 169  170  .rodata             ascii   Default object for the camera children to look at (the aim target), if not specified in a child camera.  May be empty if all of the children define targets of their own.
+1332187 0x097dd920 0x097dd920 178  179  .rodata             ascii   Default object for the camera children wants to move with (the body target), if not specified in a child camera.  May be empty if all of the children define targets of their own.
+1332199 0x097dde5c 0x097dde5c 293  294  .rodata             ascii   Use FixedUpdate if all your targets are animated during FixedUpdate (e.g. RigidBodies), LateUpdate if all your targets are animated during the normal Update loop, and SmartUpdate if you want Cinemachine to do the appropriate thing on a per-target basis.  SmartUpdate is the recommended setting
+1332218 0x097de786 0x097de786 135  136  .rodata             ascii   The target objects, together with their weights and radii, that will contribute to the group's average position, orientation, and size.
+1332219 0x097de80e 0x097de80e 154  155  .rodata             ascii   The target objects.  This object's position and orientation will contribute to the group's average position and orientation, in accordance with its weight
+1332220 0x097de8a9 0x097de8a9 70   71   .rodata             ascii   How much weight to give the target when averaging.  Cannot be negative
+1332221 0x097de8f0 0x097de8f0 84   85   .rodata             ascii   The radius of the target, used for calculating the bounding box.  Cannot be negative
+1332222 0x097de945 0x097de945 155  156  .rodata             ascii   The object that the camera wants to look at (the Aim target).  If this is null, then the vcam's Transform orientation will define the camera's orientation.
+1332223 0x097de9e1 0x097de9e1 152  153  .rodata             ascii   The object that the camera wants to move with (the Body target).  If this is null, then the vcam's Transform position will define the camera's position.
+1332228 0x097deb5e 0x097deb5e 177  178  .rodata             ascii   Target offset from the target object's center in target-local space. Use this to fine-tune the tracking target position when the desired area is not the tracked object's center.
+1332229 0x097dec10 0x097dec10 461  462  .rodata             ascii   This setting will instruct the composer to adjust its target offset based on the motion of the target.  The composer will look at a point where it estimates the target will be this many seconds into the future.  Note that this setting is sensitive to noisy animation, and can amplify the noise, resulting in undesirable camera jitter.  If the camera jitters unacceptably when the target is in motion, turn down this setting, or animate the target more smoothly.
+1332232 0x097deeb2 0x097deeb2 343  344  .rodata             ascii   How aggressively the camera tries to follow the target in the screen-horizontal direction. Small numbers are more responsive, rapidly orienting the camera to keep the target in the dead zone. Larger numbers give a more heavy slowly responding camera. Using different vertical and horizontal settings can yield a wide range of camera behaviors.
+1332233 0x097df00a 0x097df00a 341  342  .rodata             ascii   How aggressively the camera tries to follow the target in the screen-vertical direction. Small numbers are more responsive, rapidly orienting the camera to keep the target in the dead zone. Larger numbers give a more heavy slowly responding camera. Using different vertical and horizontal settings can yield a wide range of camera behaviors.
+1332234 0x097df160 0x097df160 98   99   .rodata             ascii   Horizontal screen position for target. The camera will rotate to position the tracked object here.
+1332235 0x097df1c3 0x097df1c3 96   97   .rodata             ascii   Vertical screen position for target, The camera will rotate to position the tracked object here.
+1332236 0x097df224 0x097df224 87   88   .rodata             ascii   Camera will not rotate horizontally if the target is within this range of the position.
+1332237 0x097df27c 0x097df27c 85   86   .rodata             ascii   Camera will not rotate vertically if the target is within this range of the position.
+1332238 0x097df2d2 0x097df2d2 150  151  .rodata             ascii   When target is within this region, camera will gradually rotate horizontally to re-align towards the desired position, depending on the damping speed.
+1332239 0x097df369 0x097df369 148  149  .rodata             ascii   When target is within this region, camera will gradually rotate vertically to re-align towards the desired position, depending on the damping speed.
+1332240 0x097df3fe 0x097df3fe 97   98   .rodata             ascii   A non-zero bias will move the target position horizontally away from the center of the soft zone.
+1332241 0x097df460 0x097df460 95   96   .rodata             ascii   A non-zero bias will move the target position vertically away from the center of the soft zone.
+1332242 0x097df4c0 0x097df4c0 119  120  .rodata             ascii   Force target to center of screen when this camera activates.  If false, will clamp target to the edges of the dead zone
+1332244 0x097df582 0x097df582 259  260  .rodata             ascii   The position along the path at which the camera will be placed.  This can be animated directly, or set automatically by the Auto-Dolly feature to get as close as possible to the Follow target.  The value is interpreted according to the Position Units setting.
+1332247 0x097df889 0x097df889 341  342  .rodata             ascii   How aggressively the camera tries to maintain its position in a direction perpendicular to the path.  Small numbers are more responsive, rapidly translating the camera to keep the target's x-axis offset.  Larger numbers give a more heavy slowly responding camera. Using different settings per axis can yield a wide range of camera behaviors.
+1332248 0x097df9df 0x097df9df 331  332  .rodata             ascii   How aggressively the camera tries to maintain its position in the path-local up direction.  Small numbers are more responsive, rapidly translating the camera to keep the target's y-axis offset.  Larger numbers give a more heavy slowly responding camera. Using different settings per axis can yield a wide range of camera behaviors.
+1332249 0x097dfb2b 0x097dfb2b 336  337  .rodata             ascii   How aggressively the camera tries to maintain its position in a direction parallel to the path.  Small numbers are more responsive, rapidly translating the camera to keep the target's z-axis offset.  Larger numbers give a more heavy slowly responding camera. Using different settings per axis can yield a wide range of camera behaviors.
+1332250 0x097dfc7c 0x097dfc7c 163  164  .rodata             ascii   How to set the virtual camera's Up vector.  This will affect the screen composition, because the camera Aim behaviours will always try to respect the Up direction.
+1332251 0x097dfd20 0x097dfd20 169  170  .rodata             ascii   How aggressively the camera tries to track the target rotation's X angle.  Small numbers are more responsive.  Larger numbers give a more heavy slowly responding camera.
+1332252 0x097dfdca 0x097dfdca 169  170  .rodata             ascii   How aggressively the camera tries to track the target rotation's Y angle.  Small numbers are more responsive.  Larger numbers give a more heavy slowly responding camera.
+1332253 0x097dfe74 0x097dfe74 169  170  .rodata             ascii   How aggressively the camera tries to track the target rotation's Z angle.  Small numbers are more responsive.  Larger numbers give a more heavy slowly responding camera.
+1332254 0x097dff1e 0x097dff1e 90   91   .rodata             ascii   Controls how automatic dollying occurs.  A Follow target is necessary to use this feature.
+1332255 0x097dff79 0x097dff79 173  174  .rodata             ascii   If checked, will enable automatic dolly, which chooses a path position that is as close as possible to the Follow target.  Note: this can have significant performance impact
+1332256 0x097e0027 0x097e0027 90   91   .rodata             ascii   Offset, in current position units, from the closest point on the path to the follow target
+1332260 0x097e01ba 0x097e01ba 172  173  .rodata             ascii   The coordinate space to use when interpreting the offset from the target.  This is also used to set the camera's Up vector, which will be maintained when aiming the camera.
+1332261 0x097e0267 0x097e0267 87   88   .rodata             ascii   The distance vector that the transposer will attempt to maintain from the Follow target
+1332262 0x097e02bf 0x097e02bf 312  313  .rodata             ascii   How aggressively the camera tries to maintain the offset in the X-axis.  Small numbers are more responsive, rapidly translating the camera to keep the target's x-axis offset.  Larger numbers give a more heavy slowly responding camera. Using different settings per axis can yield a wide range of camera behaviors.
+1332263 0x097e03f8 0x097e03f8 312  313  .rodata             ascii   How aggressively the camera tries to maintain the offset in the Y-axis.  Small numbers are more responsive, rapidly translating the camera to keep the target's y-axis offset.  Larger numbers give a more heavy slowly responding camera. Using different settings per axis can yield a wide range of camera behaviors.
+1332264 0x097e0531 0x097e0531 312  313  .rodata             ascii   How aggressively the camera tries to maintain the offset in the Z-axis.  Small numbers are more responsive, rapidly translating the camera to keep the target's z-axis offset.  Larger numbers give a more heavy slowly responding camera. Using different settings per axis can yield a wide range of camera behaviors.
+1332265 0x097e066a 0x097e066a 164  165  .rodata             ascii   How aggressively the camera tries to track the target's orientation.  Small numbers are more responsive.  Larger numbers give a more heavy slowly responding camera.
+1332366 0x097e2433 0x097e2433 7    8    .rodata             ascii   Targets
+1350213 0x0994ac3b 0x0994ac3b 17   18   .rodata             ascii   DownloadTargetUrl
+1350214 0x0994ac4d 0x0994ac4d 55   56   .rodata             ascii   Unable to find method for p/invoke: 'DownloadTargetUrl'
+1352426 0x0996f59f 0x0996f59f 103  104  .rodata             ascii   Cannot marshal field 'm_Target' of type 'ColorTween': Reference type field marshaling is not supported.
+1352427 0x0996f607 0x0996f607 103  104  .rodata             ascii   Cannot marshal field 'm_Target' of type 'FloatTween': Reference type field marshaling is not supported.
+1353021 0x09977564 0x09977564 52   53   .rodata             ascii   UnityEngine.Mesh::UploadMeshDataImpl(System.Boolean)
+1353094 0x099793b0 0x099793b0 98   99   .rodata             ascii   Cannot marshal field 'target' of type 'HitInfo': Reference type field marshaling is not supported.
+1353245 0x0997b7e5 0x0997b7e5 52   53   .rodata             ascii   UnityEngine.SystemInfo::SupportedRenderTargetCount()
+1353278 0x0997bf9d 0x0997bf9d 73   74   .rodata             ascii   UnityEngine.Texture2D::LoadRawTextureDataImpl(System.IntPtr,System.Int32)
+1353279 0x0997bfe7 0x0997bfe7 65   66   .rodata             ascii   UnityEngine.Texture2D::LoadRawTextureDataImplArray(System.Byte[])
+1353280 0x0997c029 0x0997c029 101  102  .rodata             ascii   UnityEngine.Texture2D::LoadRawTextureDataImplArrayWithOffset(System.Byte[],System.Int32,System.Int32)
+1355473 0x0998c348 0x0998c348 201  202  .rodata             ascii   UnityEngine.Rendering.CommandBuffer::Blit_Texture_Injected(UnityEngine.Texture,UnityEngine.Rendering.RenderTargetIdentifier&,UnityEngine.Material,System.Int32,UnityEngine.Vector2&,UnityEngine.Vector2&)
+1355474 0x0998c412 0x0998c412 230  231  .rodata             ascii   UnityEngine.Rendering.CommandBuffer::Blit_Identifier_Injected(UnityEngine.Rendering.RenderTargetIdentifier&,UnityEngine.Rendering.RenderTargetIdentifier&,UnityEngine.Material,System.Int32,UnityEngine.Vector2&,UnityEngine.Vector2&)
+1358451 0x099ca532 0x099ca532 58   59   .rodata             ascii   UnityEngine.Animator::InterruptMatchTarget(System.Boolean)
+1358452 0x099ca56d 0x099ca56d 44   45   .rodata             ascii   UnityEngine.Animator::get_isMatchingTarget()
+1358460 0x099ca77e 0x099ca77e 71   72   .rodata             ascii   UnityEngine.Animator::SetTarget(UnityEngine.AvatarTarget,System.Single)
+1358549 0x099cbcb6 0x099cbcb6 164  165  .rodata             ascii   UnityEngine.Animator::MatchTarget_Injected(UnityEngine.Vector3&,UnityEngine.Quaternion&,System.Int32,UnityEngine.MatchTargetWeightMask&,System.Single,System.Single)
+1358550 0x099cbd5b 0x099cbd5b 71   72   .rodata             ascii   UnityEngine.Animator::get_targetPosition_Injected(UnityEngine.Vector3&)
+1358551 0x099cbda3 0x099cbda3 74   75   .rodata             ascii   UnityEngine.Animator::get_targetRotation_Injected(UnityEngine.Quaternion&)
+1364093 0x09a423b0 0x09a423b0 101  102  .rodata             ascii   UnityEngine.Audio.AudioPlayableOutput::InternalGetTarget(UnityEngine.Playables.PlayableOutputHandle&)
+1364094 0x09a42416 0x09a42416 125  126  .rodata             ascii   UnityEngine.Audio.AudioPlayableOutput::InternalSetTarget(UnityEngine.Playables.PlayableOutputHandle&,UnityEngine.AudioSource)
+1373950 0x09b1cf21 0x09b1cf21 39   40   .rodata             ascii   UnityEngine.Canvas::get_targetDisplay()
+1374810 0x09b2dc34 0x09b2dc34 49   50   .rodata             ascii   UnityEngine.Video.VideoPlayer::get_targetCamera()
+1374811 0x09b2dc66 0x09b2dc66 67   68   .rodata             ascii   UnityEngine.Video.VideoPlayer::set_targetCamera(UnityEngine.Camera)
+1374812 0x09b2dcaa 0x09b2dcaa 50   51   .rodata             ascii   UnityEngine.Video.VideoPlayer::get_targetTexture()
+1374813 0x09b2dcdd 0x09b2dcdd 75   76   .rodata             ascii   UnityEngine.Video.VideoPlayer::set_targetTexture(UnityEngine.RenderTexture)
+1374814 0x09b2dd29 0x09b2dd29 59   60   .rodata             ascii   UnityEngine.Video.VideoPlayer::get_targetMaterialRenderer()
+1374815 0x09b2dd65 0x09b2dd65 79   80   .rodata             ascii   UnityEngine.Video.VideoPlayer::set_targetMaterialRenderer(UnityEngine.Renderer)
+1374816 0x09b2ddb5 0x09b2ddb5 59   60   .rodata             ascii   UnityEngine.Video.VideoPlayer::get_targetMaterialProperty()
+1374817 0x09b2ddf1 0x09b2ddf1 72   73   .rodata             ascii   UnityEngine.Video.VideoPlayer::set_targetMaterialProperty(System.String)
+1374820 0x09b2debe 0x09b2debe 54   55   .rodata             ascii   UnityEngine.Video.VideoPlayer::get_targetCameraAlpha()
+1374821 0x09b2def5 0x09b2def5 67   68   .rodata             ascii   UnityEngine.Video.VideoPlayer::set_targetCameraAlpha(System.Single)
+1374822 0x09b2df39 0x09b2df39 57   58   .rodata             ascii   UnityEngine.Video.VideoPlayer::get_targetCamera3DLayout()
+1374823 0x09b2df73 0x09b2df73 88   89   .rodata             ascii   UnityEngine.Video.VideoPlayer::set_targetCamera3DLayout(UnityEngine.Video.Video3DLayout)
+1374882 0x09b2ecb5 0x09b2ecb5 66   67   .rodata             ascii   UnityEngine.Video.VideoPlayer::GetTargetAudioSource(System.UInt16)
+1374883 0x09b2ecf8 0x09b2ecf8 90   91   .rodata             ascii   UnityEngine.Video.VideoPlayer::SetTargetAudioSource(System.UInt16,UnityEngine.AudioSource)
+1375447 0x09b4db4c 0x09b4db4c 15   16   .rodata             ascii   TargetException
+1375520 0x09b4ec4f 0x09b4ec4f 35   36   .rodata             ascii   Non-static method requires a target
+1378976 0x09b68705 0x09b68705 18   19   .rodata             ascii   , Retargetable=Yes
+1379087 0x09b6a26d 0x09b6a26d 68   69   .rodata             ascii   Immediately reclaimed %ld bytes, heapsize: %lu bytes (%lu unmapped)\n
+1379170 0x09b6ae3c 0x09b6ae3c 42   43   .rodata             ascii   Disposing of reclaim lists took %lu msecs\n
+1379187 0x09b6afc0 0x09b6afc0 20   21   .rodata             ascii   GC_PAUSE_TIME_TARGET
+1379188 0x09b6afd5 0x09b6afd5 94   95   .rodata             ascii   GC Warning: GC_PAUSE_TIME_TARGET environment variable value too small or bad syntax: Ignoring\n
